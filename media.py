@@ -10,7 +10,8 @@ class Video():
 class Movie(Video):
 	"""This class provides a way to store movie related information"""
 	# VALID_RATINGS = ["G", "PG", "PG-13", "R"]
-	def __init__(self, movie_title, movie_duration, movie_storyline, poster_image, trailer_youtube):
+	def __init__(self, movie_title, movie_duration,
+							 movie_storyline, poster_image, trailer_youtube):
 		# Calling initializer of parent
 		Video.__init__(self, movie_title, movie_duration)
 		# Assign value to corresponding member fields

@@ -4,7 +4,13 @@ import fresh_tomatoes
 # Create a list to store movie instances
 movie_list = [];
 
-# Create multiple movie instances
+# Create multiple movie instances by passing information (in string) to the 
+# constructors
+# 1. movie titles
+# 2. duration
+# 3. summaries
+# 4. URL of imageries
+# 5. URL of trailers
 toy_story = media.Movie(
 						"Toy Story",
 						81,
