@@ -46,6 +46,7 @@ midnight_in_paris = media.Movie(
 							"Going back in time to meet authors",
 							"https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
 							"https://www.youtube.com/watch?v=BYRWfS2s2v4")
+
 # Put the created motive instances into the list
 movie_list.append(toy_story)
 movie_list.append(avatar)
